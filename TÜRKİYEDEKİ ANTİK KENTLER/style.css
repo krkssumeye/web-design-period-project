@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*oluştumuş olduğum ikinci bir stil sayfası ile de bölgerim için 
+kullandığım kartların dizaynını gerçekleştirdim*/
+.card{
+
+margin-left:-80px;
+background-color: #e2cba6;
+
+}
+.card-title{
+color: rgb(54, 22, 4);
+font-family: Times New Roman;
+font-size: 25px;
+}
+.card-columns{
+	width: 75rem;
+}
+.card-body{
+	width: 25rem;
+}
+.card-text{
+color: rgb(54, 22, 4);
+font-family: Times New Roman;
+
+}
+
+.card-body .btn  {
+	color: #e2cba6;
+
+}

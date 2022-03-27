@@ -1,0 +1,255 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*<!--ÜST MENÜ YANİ NAVBARIN ŞEKİLLENMESİ İÇİN CSS KOMUTLARI EKLEDİM --*/
+
+.navbar-light{
+	background-color: rgba(173, 139,83,0.7);
+}
+
+.container-fluid .navbar-brand{
+	ine-height: 80px;
+	margin: 0px 10px;
+	font-family: Times New Roman;
+}
+
+.navbar ul{
+	float: right;
+	margin-right: 50px;
+
+}
+.navbar ul li{
+	display: flex;
+	list-style: none;
+	line-height: 80px;
+	margin: 0px 0px;/*alt-üst:0, sol-sağ: 12 px*/
+	
+}
+ .navbar ul li a{
+ 	text-decoration: none;
+ 	color: rgb(54, 22, 4);
+ 	font-size: 15px;
+ 	padding: 1px 35px;/*iç kenar boşluğu*/
+ 	transition: 1s;
+ 	font-family:  Times New Roman;
+ 
+
+ }
+
+ .navbar ul li a:hover{
+ 	background-color: #9e5535; 
+ 	border-radius: 40px;
+ }
+
+
+
+.body{
+	background: #fff;
+	color: #3f3f3f;
+	font: 14px/28px;
+	font-family:  Times New Roman;
+}
+
+
+/* OLUŞTURMUŞ OLDUĞUM MENÜLERİN ŞEKİLLENMESİ İÇİN CSS KOMUTLARI EKLEDİM */
+.container1{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+
+
+}
+
+/*MAİNSLİDER,MAİN CAPTİON,SLİDER,CAPTİON İLE ANASAYFAMDA BULUNAN BİRİNCİ BÖLÜM İÇİN DÜZENLEEM YAPTIM */
+#mainSlider{
+		height: 900px;
+		background: url('../TÜRKİYEDEKİ ANTİK KENTLER/fotoğraflar/Adsız2.png') center center no-repeat;
+		background-size: cover;
+	}
+.slider{
+		width: 100%;}
+
+
+
+#mainCaption{
+	height: 900px;
+	background: rgba(0, 0, 0, .5);
+}
+.caption{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	color: #ccb38a;
+	font-size: 25px;
+	font-family:  Times New Roman;
+}
+
+
+
+/*SECTİONHEADER,SECTİON AREA,PARALLAX VE PARALLAXTOP İLE DE İKİNCİ BÖLÜMÜM OLAN FOTOĞRAF GALERİSİNİ DÜZENLEDİM HTML SAYFAMDA OLUŞTURMUŞ OLDUĞUM DİVLERİN İÇERİSİNDE BULUNAN BU CLASSLAR İÇİN DÜZENLEME GERÇEKLEŞTİRDİM*/
+.sectionArea{
+	padding: 300px 0;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 100%;
+
+}
+
+
+.SectionHeader{
+	background: rgba(173, 139,83,0.7); 
+	border-bottom: 6 px solid #000;
+	height: 60px;
+	color: #ccb38a;
+	display: inline-block;
+	line-height: 60px;
+	font-size: 24px;
+	padding: 5px 30px;
+	border-radius: 10px;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+
+
+#parallax{
+	background: linear-gradient(
+
+
+		rgba(0, 0, 0, .5),
+		rgba(0, 0, 0, .5)),
+		url('../TÜRKİYEDEKİ ANTİK KENTLER/fotoğraflar/Adsız.png');
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: center;
+		text-align: center;
+}
+
+
+
+
+.parallaxTop a:hover {
+    color: rgba(173, 139,83,0.7);
+    background-color: rgb(54, 22, 4);
+    text-decoration: underline;
+}
+
+
+
+
+
+/*FOTOĞRAF GALERİSİNDE BULUNAN BALIKLARIN BOYUTUNU DEĞİŞTİRDİM*/
+.card h3{
+	font-size: 15px;
+
+}
+
+
+.container h2{
+font-family: Times New Roman;
+	font-size: 30px;
+	color: rgb(54, 22, 4);
+}
+
+
+.col-md-4 label{
+
+
+	font-family: Times New Roman;
+	font-size: 20px;
+	color: rgb(54, 22, 4);
+}
+
+.col-md-12 label{
+	font-family: Times New Roman;
+	font-size: 20px;
+	color: rgb(54, 22, 4);
+}
+
+.form-row a{
+
+	text-decoration: none;
+ 	color: rgb(54, 22, 4);
+ 	font-size: 19px; 	
+ 	transition: 1s;
+ 	font-family:  Times New Roman;
+ 	border-bottom: 6 px solid #000;
+ 	height: 60px;
+	display: inline-block;
+	line-height: 60px;	
+	padding: 0px 10px;
+	border-radius: 10px;
+	letter-spacing: 2px;
+	margin-top: 20px;
+}
+
+.form-row a:hover{
+ color: rgba(173, 139,83,0.7);
+ background-color: rgb(54, 22, 4);
+ text-decoration: underline;
+ margin-top: 20px;
+
+    }
+
+/*BOOTSRAP KULLANARAK YAPMIŞ OLDUĞUM FOOTER BÖLÜMDE CSS DOSYALARIYLA YENİDEN ŞEKİLLENDİRDİM*/
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
